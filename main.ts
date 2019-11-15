@@ -1,7 +1,5 @@
-function log(message) {
-    console.log(message);
-}
+import {Point} from './point';
 
-let message = 'Hello World';
-
-log(message);
+let point = new Point(1,3);
+console.log(`Calling get X: ${point.x}`);
+point.draw();
